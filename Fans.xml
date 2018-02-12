@@ -23,9 +23,9 @@
 			<Description>This is where you put the parts in to make a fan.</Description>
 			<Category>Plastic Work</Category>
 			<DevTime>1</DevTime>
-			<Innovation>1</Innovation>
+			<Innovation>0.3</Innovation>
 			<Usability>1</Usability>
-			<Stability>1</Stability>
+			<Stability>0.8</Stability>
 			<CodeArt>0.7</CodeArt>
 		</Feature>
 		<Feature From="Plastic Housing">
