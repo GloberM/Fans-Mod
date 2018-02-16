@@ -12,7 +12,16 @@
 			<TimeScale>0.5</TimeScale>
 			<Iterative>0.5</Iterative>
 			<NameGenerator>OS</NameGenerator>
-		</Category>	
+		</Category>
+		<Category Name="Medium Fan">
+			<Description>This is a medium fan.</Description>
+			<Unlock>1990</Unlock>
+			<Popularity>0.8</Popularity>
+			<Retention>0.7</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>0.7</Iterative>
+			<NameGenerator>OS</NameGenerator>
+		</Category>
 	</Categories>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
@@ -27,6 +36,8 @@
 			<Usability>0.6</Usability>
 			<Stability>0.4</Stability>
 			<CodeArt>0.7</CodeArt>
+			<SoftwareCategory Category="Small Fan">0</SoftwareCategory>
+			<SoftwareCategory Category="Medium Fan">0</SoftwareCategory>
 		</Feature>
 		<Feature From="Plastic Housing">
 			<Name>Metal Housing</Name>
@@ -37,6 +48,9 @@
 			<Usability>0.7</Usability>
 			<Stability>0.7</Stability>
 			<CodeArt>0.8</CodeArt>
+			<Unlock>1986</Unlock>
+			<SoftwareCategory Category="Small Fan">0</SoftwareCategory>
+			<SoftwareCategory Category="Medium Fan">0</SoftwareCategory>
 		</Feature>
 		<Feature From="Metal Housing">
 			<Name>Titanium Housing</Name>
@@ -47,16 +61,32 @@
 			<Usability>0.9</Usability>
 			<Stability>0.9</Stability>
 			<CodeArt>0.8</CodeArt>
+			<Unlock>1995</Unlock>
+			<SoftwareCategory Category="Medium Fan">0</SoftwareCategory>
 		</Feature>
 		<Feature Forced="TRUE">
-            <Name>Small Electric Motor</Name>
-            <Description>You can't have a fan without an electric motor.</Description>
+      <Name>Small Electric Motor</Name>
+      <Description>You can't have a fan without an electric motor.</Description>
 			<Category>Electronic Work</Category>
-            <DevTime>1</DevTime>
-            <Innovation>1</Innovation>
-            <Usability>1</Usability>
-            <Stability>1</Stability>
-            <CodeArt>0.6</CodeArt>
+      <DevTime>1</DevTime>
+      <Innovation>0.5</Innovation>
+      <Usability>0.5</Usability>
+  		<Stability>0.5</Stability>
+    	<CodeArt>0.6</CodeArt>
+			<SoftwareCategory Category="Small Fan">0</SoftwareCategory>
+			<SoftwareCategory Category="Medium Fan">0</SoftwareCategory>
+		</Feature>
+		<Feature From="Small Electric Motor">
+      <Name>Medium Electric Motor</Name>
+      <Description>A fan with a bigger fan means cold.</Description>
+			<Category>Electronic Work</Category>
+      <DevTime>1</DevTime>
+      <Innovation>0.8</Innovation>
+      <Usability>0.8</Usability>
+  		<Stability>0.8</Stability>
+    	<CodeArt>0.6</CodeArt>
+			<Unlock>1991</Unlock>
+			<SoftwareCategory Category="Medium Fan">0</SoftwareCategory>
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Plastic Blade</Name>
@@ -67,6 +97,8 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.4</CodeArt>
+			<SoftwareCategory Category="Small Fan">0</SoftwareCategory>
+			<SoftwareCategory Category="Medium Fan">0</SoftwareCategory>
 		</Feature>
 		<Feature From="Plastic Blade">
 			<Name>Metal Blade</Name>
@@ -77,6 +109,9 @@
 			<Usability>0.6</Usability>
 			<Stability>0.7</Stability>
 			<CodeArt>0.7</CodeArt>
+			<Unlock>1984</Unlock>
+			<SoftwareCategory Category="Small Fan">0</SoftwareCategory>
+			<SoftwareCategory Category="Medium Fan">0</SoftwareCategory>
 		</Feature>
 		<Feature From="Metal Blade">
 			<Name>Titanium Blade</Name>
@@ -87,7 +122,8 @@
 			<Usability>0.8</Usability>
 			<Stability>0.9</Stability>
 			<CodeArt>0.4</CodeArt>
+			<Unlock>1989</Unlock>
+			<SoftwareCategory Category="Medium Fan">0</SoftwareCategory>
 		</Feature>
-
 	</Features>
 </SoftwareType>
