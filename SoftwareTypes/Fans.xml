@@ -1,0 +1,93 @@
+<SoftwareType>
+	<Name>Fans</Name>
+	<Category>Fans</Category>
+	<Description>These are the fans that cool you down not the fans as friends.</Description>
+	<Unlock>1970</Unlock>
+	<Random>0.6</Random>
+	<Categories>
+		<Category Name="Small Fan">
+			<Description>This is the smallest fan you can get.</Description>
+			<Popularity>0.6</Popularity>
+			<Retention>0.5</Retention>
+			<TimeScale>0.5</TimeScale>
+			<Iterative>0.5</Iterative>
+			<NameGenerator>OS</NameGenerator>
+		</Category>	
+	</Categories>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Plastic Housing</Name>
+			<Description>This is where you put the parts in to make a fan.</Description>
+			<Category>Plastic Work</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0.3</Innovation>
+			<Usability>0.6</Usability>
+			<Stability>0.4</Stability>
+			<CodeArt>0.7</CodeArt>
+		</Feature>
+		<Feature From="Plastic Housing">
+			<Name>Metal Housing</Name>
+			<Description>This one is better build quality then the plastic one</Description>
+			<Category>Metal Work</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0.5</Innovation>
+			<Usability>0.7</Usability>
+			<Stability>0.7</Stability>
+			<CodeArt>0.8</CodeArt>
+		</Feature>
+		<Feature From="Metal Housing">
+			<Name>Titanium Housing</Name>
+			<Description>This one is better build quality then the titanium one</Description>
+			<Category>Metal Work</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0.8</Innovation>
+			<Usability>0.9</Usability>
+			<Stability>0.9</Stability>
+			<CodeArt>0.8</CodeArt>
+		</Feature>
+		<Feature Forced="TRUE">
+            <Name>Small Electric Motor</Name>
+            <Description>You can't have a fan without an electric motor.</Description>
+			<Category>Electronic Work</Category>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.6</CodeArt>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Plastic Blade</Name>
+			<Description>You would be boiling without this!</Description>
+			<Category>Plastic Work</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0.4</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.4</CodeArt>
+		</Feature>
+		<Feature From="Plastic Blade">
+			<Name>Metal Blade</Name>
+			<Description>Its got a bigger surface area so it will blow more air on your face.</Description>
+			<Category>Metal Work</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0.6</Innovation>
+			<Usability>0.6</Usability>
+			<Stability>0.7</Stability>
+			<CodeArt>0.7</CodeArt>
+		</Feature>
+		<Feature From="Metal Blade">
+			<Name>Titanium Blade</Name>
+			<Description>This one is more lighter then the metal so it should spin faster.</Description>
+			<Category>Metal Work</Category>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0.8</Usability>
+			<Stability>0.9</Stability>
+			<CodeArt>0.4</CodeArt>
+		</Feature>
+
+	</Features>
+</SoftwareType>
