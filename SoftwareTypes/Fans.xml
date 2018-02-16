@@ -11,7 +11,7 @@
 			<Retention>0.5</Retention>
 			<TimeScale>0.5</TimeScale>
 			<Iterative>0.5</Iterative>
-			<NameGenerator>OS</NameGenerator>
+			<NameGenerator>fanNames</NameGenerator>
 		</Category>
 		<Category Name="Medium Fan">
 			<Description>This is a medium fan.</Description>
@@ -20,7 +20,7 @@
 			<Retention>0.7</Retention>
 			<TimeScale>0.7</TimeScale>
 			<Iterative>0.7</Iterative>
-			<NameGenerator>OS</NameGenerator>
+			<NameGenerator>fanNames</NameGenerator>
 		</Category>
 		<Category Name="Big Fan">
 			<Description>This is a big fan.</Description>
@@ -29,7 +29,7 @@
 			<Retention>0.8</Retention>
 			<TimeScale>0.9</TimeScale>
 			<Iterative>0.8</Iterative>
-			<NameGenerator>OS</NameGenerator>
+			<NameGenerator>fanNames</NameGenerator>
 		</Category>
 	</Categories>
 	<OSSpecific>FALSE</OSSpecific>
