@@ -1,21 +1,21 @@
 <SoftwareType>
-<Name>Air Condictioning Unit(AC)</Name>
-	<Category>AC</Category>
-	<Description>These work better then fans but they cost more to run</Description>
-	<Unlock>1988</Unlock>
-	<Random>0.7</Random>
-<Categories>
-	<Category Name="Small AC Unit">
-			<Description>This is the smallest fan you can get.</Description>
+    <Name>Air Condictioning Unit(AC)</Name>
+	    <Category>AC</Category>
+	    <Description>These work better then fans but they cost more to run</Description>
+	    <Unlock>1988</Unlock>
+	    <Random>0.7</Random>
+    <Categories>
+	    <Category Name="Small AC Unit">
+			<Description>This is the smallest AC Unit you can get.</Description>
 			<Popularity>0.6</Popularity>
-		        <Unlock>1988</Unlock>
+	    <Unlock>1988</Unlock>
 			<Retention>0.5</Retention>
 			<TimeScale>0.5</TimeScale>
 			<Iterative>0.5</Iterative>
 			<NameGenerator>fanNames</NameGenerator>
 		</Category>
 		<Category Name="Medium AC Unit">
-			<Description>This is a medium fan.</Description>
+			<Description>This is a medium AC Unit.</Description>
 			<Unlock>1992</Unlock>
 			<Popularity>0.8</Popularity>
 			<Retention>0.7</Retention>
@@ -33,7 +33,4 @@
 			<NameGenerator>fanNames</NameGenerator>
 		</Category>
 	</Categories>
-	<OSSpecific>FALSE</OSSpecific>
-	<OneClient>FALSE</OneClient>
-	<InHouse>FALSE</InHouse>
 </SoftwareType>
