@@ -50,5 +50,30 @@
 			<SoftwareCategory Category="Medium AC Unit">0</SoftwareCategory>
 			<SoftwareCategory Category="Big AC Unit">0</SoftwareCategory>
 		</Feature>
+
+		<Feature Vital="TRUE">
+			<Name>Air Filtering</Name>
+			<Description>Your AC Unit will filter better your air.</Description>
+			<Category>Filter Work</Category>
+			<DevTime>2</DevTime>
+			<Innovation>0.7</Innovation>
+			<Usability>0.7</Usability>
+			<Stability>0.4</Stability>
+			<CodeArt>0.7</CodeArt>
+			<SoftwareCategory Category="Medium AC Unit">1997</SoftwareCategory>
+			<SoftwareCategory Category="Big AC Unit">1997</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE" Research="Air Filtering">
+			<Name>Advanced Air Filtering</Name>
+			<Description>Your AC Unit will filter and clean your air.</Description>
+			<Category>Filter Work</Category>
+			<DevTime>3</DevTime>
+			<Innovation>0.9</Innovation>
+			<Usability>0.9</Usability>
+			<Stability>0.7</Stability>
+			<CodeArt>0.7</CodeArt>
+			<Unlock>1999</Unlock>
+			<SoftwareCategory Category="Big AC Unit">1999</SoftwareCategory>
+		</Feature>
 	</Features>
 </SoftwareType>
