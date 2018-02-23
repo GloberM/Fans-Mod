@@ -162,12 +162,44 @@
 			<SoftwareCategory Category="Medium Fan">1989</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1989</SoftwareCategory>
 		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Basic Speed Controller</Name>
+			<Description>This controller will let you control your fan with 3 different velocities.</Description>
+			<Category>Plastic Work</Category>
+			<DevTime>0.2</DevTime>
+			<Innovation>0.3</Innovation>
+			<Usability>0.3</Usability>
+			<Stability>0.9</Stability>
+			<CodeArt>0.4</CodeArt>
+			<SoftwareCategory Category="Small Fan">1983</SoftwareCategory>
+			<SoftwareCategory Category="Medium Fan">1983</SoftwareCategory>
+			<SoftwareCategory Category="Big Fan">1983</SoftwareCategory>
+		</Feature>
+		<Feature From="Basic Speed Controller">
+			<Name>Speed Controller</Name>
+			<Description>This controller will let you control your fan with 5 different velocities.</Description>
+			<Category>Plastic Work</Category>
+			<DevTime>0.4</DevTime>
+			<Innovation>0.5</Innovation>
+			<Usability>0.5</Usability>
+			<Stability>0.7</Stability>
+			<CodeArt>0.6</CodeArt>
+			<SoftwareCategory Category="Small Fan">1986</SoftwareCategory>
+			<SoftwareCategory Category="Medium Fan">1986</SoftwareCategory>
+			<SoftwareCategory Category="Big Fan">1986</SoftwareCategory>
+		</Feature>
+		<Feature From="Speed Controller">
+			<Name>Advanced Speed Controller</Name>
+			<Description>This controller will let you control your fan with 12 different velocities! WOW!</Description>
+			<Category>Plastic Work</Category>
+			<DevTime>0.6</DevTime>
+			<Innovation>0.7</Innovation>
+			<Usability>0.7</Usability>
+			<Stability>0.4</Stability>
+			<CodeArt>0.8</CodeArt>
+			<SoftwareCategory Category="Small Fan">1990</SoftwareCategory>
+			<SoftwareCategory Category="Medium Fan">1990</SoftwareCategory>
+			<SoftwareCategory Category="Big Fan">1990</SoftwareCategory>
+		</Feature>
 	</Features>
-	<Name>Air Condictioning Unit(AC)</Name>
-	<Category>AC</Category>
-	<Description>These work better then fans but they cost more to run</Description>
-	<Unlock>1988</Unlock>
-	<Random>0.7</Random>
-<Categories>
-	</Categories>
-</SoftwareType>	
+</SoftwareType>
