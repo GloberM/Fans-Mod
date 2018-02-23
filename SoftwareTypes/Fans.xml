@@ -275,7 +275,7 @@
 			<Description>Your fan is more power efficient.</Description>
 			<Category>Power Management</Category>
 			<DevTime>6</DevTime>
-			<Innovation>1.0</Innovation>
+			<Innovation>1.1</Innovation>
 			<Usability>1.6</Usability>
 			<Stability>1.8</Stability>
 			<CodeArt>0.8</CodeArt>
@@ -283,6 +283,6 @@
 			<SoftwareCategory Category="Medium Fan">1999</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1999</SoftwareCategory>
 		</Feature>
-		
+
 	</Features>
 </SoftwareType>
