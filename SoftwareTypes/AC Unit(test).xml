@@ -1,21 +1,21 @@
 <SoftwareType>
-<Name>Air Condictioning Unit(AC)</Name>
+<Name>Air Conditioning Unit(AC)</Name>
 	<Category>AC</Category>
-	<Description>These work better then fans but they cost more to run</Description>
+	<Description>These work better than fans but they cost more to run</Description>
 	<Unlock>1988</Unlock>
 	<Random>0.7</Random>
-<Categories>
-	<Category Name="Small AC Unit">
-			<Description>This is the smallest fan you can get.</Description>
+	<Categories>
+		<Category Name="Small AC Unit">
+			<Description>This is the smallest AC Unit you can get.</Description>
 			<Popularity>0.6</Popularity>
-		        <Unlock>1988</Unlock>
+      <Unlock>1988</Unlock>
 			<Retention>0.5</Retention>
 			<TimeScale>0.5</TimeScale>
 			<Iterative>0.5</Iterative>
 			<NameGenerator>fanNames</NameGenerator>
 		</Category>
 		<Category Name="Medium AC Unit">
-			<Description>This is a medium fan.</Description>
+			<Description>This is a medium AC Unit.</Description>
 			<Unlock>1992</Unlock>
 			<Popularity>0.8</Popularity>
 			<Retention>0.7</Retention>
@@ -24,7 +24,7 @@
 			<NameGenerator>fanNames</NameGenerator>
 		</Category>
 		<Category Name="Big AC Unit">
-			<Description>This is a big AC unit but you need to be a thriving buisnes to afford to run one of these.</Description>
+			<Description>This is a big AC Unit, but you need to be a thriving buisnes to afford to run one of these.</Description>
 			<Unlock>1995</Unlock>
 			<Popularity>0.7</Popularity>
 			<Retention>0.8</Retention>
@@ -36,8 +36,8 @@
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>FALSE</InHouse>
-	
-<Feature Forced="TRUE">
+	<Features>
+		<Feature Forced="TRUE">
 			<Name>Air conditioning controller</Name>
 			<Description>You can control the temperture of your room</Description>
 			<Category>Plastic Work</Category>
@@ -49,5 +49,6 @@
 			<SoftwareCategory Category="Small AC Unit">0</SoftwareCategory>
 			<SoftwareCategory Category="Medium AC Unit">0</SoftwareCategory>
 			<SoftwareCategory Category="Big AC Unit">0</SoftwareCategory>
-	</Feature>
+		</Feature>
+	</Features>
 </SoftwareType>
