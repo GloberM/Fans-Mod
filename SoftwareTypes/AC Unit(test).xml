@@ -8,7 +8,7 @@
 		<Category Name="Small AC Unit">
 			<Description>This is the smallest AC Unit you can get.</Description>
 			<Popularity>0.6</Popularity>
-      <Unlock>1988</Unlock>
+                        <Unlock>1988</Unlock>
 			<Retention>0.5</Retention>
 			<TimeScale>0.5</TimeScale>
 			<Iterative>0.5</Iterative>
@@ -50,8 +50,19 @@
 			<SoftwareCategory Category="Medium AC Unit">0</SoftwareCategory>
 			<SoftwareCategory Category="Big AC Unit">0</SoftwareCategory>
 		</Feature>
-
-		<Feature Vital="TRUE">
+                <Feature Vital="TRUE">
+			<Name>Basic Air Filtering</Name>
+			<Description>Your AC Unit will filter better your air.</Description>
+			<Category>Filtering</Category>
+			<DevTime>2</DevTime>
+			<Innovation>0.7</Innovation>
+			<Usability>0.7</Usability>
+			<Stability>0.4</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Small AC Unit">1990</SoftwareCategory>
+			<SoftwareCategory Category="Medium AC Unit">1994</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE" From="Basic Air Filtering">
 			<Name>Air Filtering</Name>
 			<Description>Your AC Unit will filter better your air.</Description>
 			<Category>Filtering</Category>
