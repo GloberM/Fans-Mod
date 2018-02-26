@@ -101,29 +101,29 @@
 			<SoftwareCategory Category="Medium Fan">1991</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1991</SoftwareCategory>
 		</Feature>
-	<Feature>
-        <Name>Big Electric Motor</Name>
-        <Description>A fan with a big motor? How powerful is this?!?</Description>
-	<Category>Electronic Work</Category>
-        <DevTime>4</DevTime>
-        <Innovation>0.7</Innovation>
-        <Usability>0.5</Usability>
-  	<Stability>1.0</Stability>
-    	<CodeArt>1</CodeArt>
-	<SoftwareCategory Category="Big Fan">1992</SoftwareCategory>
-	<Dependency Software="Fans">Medium Electric Motor</Dependency>
-	</Feature>
 		<Feature>
-        <Name>Silent Electric Motor</Name>
-        <Description>A fan that doesn't make noise.</Description>
-	<Category>Electronic Work</Category>
-        <DevTime>5</DevTime>
-        <Innovation>0.8</Innovation>
-        <Usability>1.0</Usability>
-  	<Stability>0.5</Stability>
+      <Name>Big Electric Motor</Name>
+      <Description>A fan with a big motor? How powerful is this?!?</Description>
+			<Category>Electronic Work</Category>
+      <DevTime>4</DevTime>
+      <Innovation>0.7</Innovation>
+      <Usability>0.5</Usability>
+  		<Stability>1.0</Stability>
     	<CodeArt>1</CodeArt>
-	<SoftwareCategory Category="Big Fan">1993</SoftwareCategory>
-	<Dependency Software="Fans">Medium Electric Motor</Dependency>
+			<SoftwareCategory Category="Big Fan">1992</SoftwareCategory>
+			<Dependency Software="Fans">Medium Electric Motor</Dependency>
+		</Feature>
+		<Feature>
+      <Name>Silent Electric Motor</Name>
+      <Description>A fan that doesn't make noise.</Description>
+			<Category>Electronic Work</Category>
+      <DevTime>5</DevTime>
+      <Innovation>0.8</Innovation>
+      <Usability>1.0</Usability>
+  		<Stability>0.5</Stability>
+    	<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Big Fan">1993</SoftwareCategory>
+			<Dependency Software="Fans">Medium Electric Motor</Dependency>
 		</Feature>
 
 		<Feature Forced="TRUE">
@@ -139,7 +139,6 @@
 			<SoftwareCategory Category="Medium Fan">0</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">0</SoftwareCategory>
 		</Feature>
-		
 		<Feature From="Plastic Blade">
 			<Name>Metal Blade</Name>
 			<Description>Its got a bigger surface area so it will blow more air on your face.</Description>
@@ -153,7 +152,6 @@
 			<SoftwareCategory Category="Medium Fan">1984</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1984</SoftwareCategory>
 		</Feature>
-		
 		<Feature From="Metal Blade">
 			<Name>Titanium Blade</Name>
 			<Description>This blade is lighter then the metal so it will spin faster.</Description>
@@ -166,8 +164,7 @@
 			<SoftwareCategory Category="Medium Fan">1989</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1989</SoftwareCategory>
 		</Feature>
-		
-                <Feature From="Titanuim Blade">
+    <Feature From="Titanium Blade">
 			<Name>Carbon fiber Blade</Name>
 			<Description>This blade is lighter then the Titanuim so it will spin alot faster.</Description>
 			<Category>Metal Work</Category>
@@ -179,7 +176,7 @@
 			<SoftwareCategory Category="Medium Fan">1998</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1999</SoftwareCategory>
 		</Feature>
-		
+
 		<Feature Forced="TRUE">
 			<Name>Basic Speed Controller</Name>
 			<Description>This controller will let you control your fan with 3 different velocities.</Description>
@@ -325,10 +322,10 @@
 			<SoftwareCategory Category="Medium Fan">2010</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">2010</SoftwareCategory>
 		</Feature>
-                <Feature Vital="TRUE">
+    <Feature Vital="TRUE">
 			<Name>Manual Firmware Update</Name>
 			<Descrition>You have to manualy plug it into to the computer then it will tell you what to do.</Description>
-			<Catogory>IT</Catogory>
+			<Category>IT</Category>
 			<DevTime>5</DevTime>
 			<Innovation>1.5</Innovation>
 			<Usability>1.3</Usability>
@@ -341,13 +338,13 @@
 		<Feature Vital="TRUE" From="Manual Firmware Update">
 			<Name>Automatic Firmware Update</Name>
 			<Description>Your fan will update by itself.</Description>
-			<Category>Network</Category>
+			<Category>IT</Category>
 			<DevTime>9</DevTime>
 			<Innovation>2.0</Innovation>
 			<Usability>2.2</Usability>
 			<Stability>2.0</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.045</Server>
+			<Server>0.0045</Server>
 			<SoftwareCategory Category="Small Fan">2004</SoftwareCategory>
 			<SoftwareCategory Category="Medium Fan">2007</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">2010</SoftwareCategory>
