@@ -77,83 +77,83 @@
 		</Feature>
 
 		<Feature Forced="TRUE">
-      <Name>Small Steam Motor</Name>
-      <Description>You can't have a fan without a motor.</Description>
+                        <Name>Small Steam Motor</Name>
+                        <Description>You can't have a fan without a motor.</Description>
 			<Category>Mechanical Work</Category>
-      <DevTime>1</DevTime>
-      <Innovation>0.3</Innovation>
-      <Usability>0.3</Usability>
+                        <DevTime>1</DevTime>
+                        <Innovation>0.3</Innovation>
+                        <Usability>0.3</Usability>
 			<Stability>0.3</Stability>
-      <CodeArt>1</CodeArt>
+                        <CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Small Fan">1970</SoftwareCategory>
 			<SoftwareCategory Category="Medium Fan">1970</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1970</SoftwareCategory>
 		</Feature>
-		<Feature From="Small Steam Motor" Vital="TRUE">
-      <Name>Medium Steam Motor</Name>
-      <Description>A bigger steam motor for your fan.</Description>
+		        <Feature From="Small Steam Motor" Vital="TRUE">
+                        <Name>Medium Steam Motor</Name>
+                        <Description>A bigger steam motor for your fan.</Description>
 			<Category>Mechanical Work</Category>
-      <DevTime>2</DevTime>
-      <Innovation>0.4</Innovation>
-      <Usability>0.4</Usability>
+                        <DevTime>2</DevTime>
+                        <Innovation>0.4</Innovation>
+                        <Usability>0.4</Usability>
 			<Stability>0.3</Stability>
-      <CodeArt>1</CodeArt>
+                        <CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Small Fan">1972</SoftwareCategory>
 			<SoftwareCategory Category="Medium Fan">1972</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1972</SoftwareCategory>
 		</Feature>
-		<Feature From="Medium Steam Motor" Vital="TRUE">
-      <Name>Big Steam Motor</Name>
-      <Description>A even bigger steam motor for your fan.</Description>
+		        <Feature From="Medium Steam Motor" Vital="TRUE">
+                        <Name>Big Steam Motor</Name>
+                        <Description>A even bigger steam motor for your fan.</Description>
 			<Category>Mechanical Work</Category>
-      <DevTime>3</DevTime>
-      <Innovation>0.6</Innovation>
-      <Usability>0.6</Usability>
+                        <DevTime>3</DevTime>
+                        <Innovation>0.6</Innovation>
+                        <Usability>0.6</Usability>
 			<Stability>0.4</Stability>
-      <CodeArt>1</CodeArt>
+                         <CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Small Fan">1974</SoftwareCategory>
 			<SoftwareCategory Category="Medium Fan">1974</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1974</SoftwareCategory>
 		</Feature>
 		<Feature From="Big Steam Motor" Vital="TRUE">
-      <Name>Small Electric Motor</Name>
-      <Description>You can't have a fan without an electric motor.</Description>
+                        <Name>Small Electric Motor</Name>
+                        <Description>You can't have a fan without an electric motor.</Description>
 			<Category>Electronic Work</Category>
-      <DevTime>1</DevTime>
-      <Innovation>0.7</Innovation>
-      <Usability>0.7</Usability>
+                        <DevTime>1</DevTime>
+                        <Innovation>0.7</Innovation>
+                        <Usability>0.7</Usability>
 			<Stability>0.7</Stability>
-      <CodeArt>1</CodeArt>
+                        <CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Small Fan">1980</SoftwareCategory>
 			<SoftwareCategory Category="Medium Fan">1980</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1980</SoftwareCategory>
 		</Feature>
 		<Feature From="Small Electric Motor">
-      <Name>Medium Electric Motor</Name>
-      <Description>A fan with a bigger fan means cold.</Description>
+                        <Name>Medium Electric Motor</Name>
+                        <Description>A fan with a bigger fan means cold.</Description>
 			<Category>Electronic Work</Category>
-      <DevTime>2</DevTime>
-      <Innovation>1.0</Innovation>
-      <Usability>0.9</Usability>
-  		<Stability>0.9</Stability>
-    	<CodeArt>1</CodeArt>
+                        <DevTime>2</DevTime>
+                        <Innovation>1.0</Innovation>
+                        <Usability>0.9</Usability>
+  		        <Stability>0.9</Stability>
+    	                <CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Medium Fan">1984</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1984</SoftwareCategory>
 		</Feature>
-		<Feature>
-      <Name>Big Electric Motor</Name>
-      <Description>A fan with a big motor? How powerful is this?!?</Description>
+		<Feature From="Medium Electric Motor">
+                        <Name>Big Electric Motor</Name>
+                        <Description>A fan with a big motor? How powerful is this?!?</Description>
 			<Category>Electronic Work</Category>
-      <DevTime>4</DevTime>
-      <Innovation>1.1</Innovation>
-    	<Usability>0.9</Usability>
-      <Stability>1.4</Stability>
-      <CodeArt>1</CodeArt>
+                        <DevTime>4</DevTime>
+                        <Innovation>1.1</Innovation>
+    	                <Usability>0.9</Usability>
+                        <Stability>1.4</Stability>
+                        <CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Big Fan">1988</SoftwareCategory>
 			<Dependency Software="Fans">Medium Electric Motor</Dependency>
 		</Feature>
-		<Feature>
-	    <Name>XL Electric Motor</Name>
+		<Feature From="Big Electric Motor">
+	                <Name>XL Electric Motor</Name>
 	    <Description>A fan with a XL motor? How much more powerful is this?!?</Description>
 			<Category>Advanced Electronic Work</Category>
       <DevTime>4</DevTime>
