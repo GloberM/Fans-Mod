@@ -1,9 +1,12 @@
 -start(base)
 -base(mid,material,color,end,stop)
 Kyoga
+ANSIO
 Honeywell
+Oypla Electrical
 Lasko
 Glamouric
+Igenix
 Seville
 Vornado
 Holmes
