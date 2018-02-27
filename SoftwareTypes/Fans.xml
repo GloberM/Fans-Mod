@@ -77,14 +77,14 @@
 		</Feature>
 
 		<Feature Forced="TRUE">
-      <Name>Small Electric Motor</Name>
-      <Description>You can't have a fan without an electric motor.</Description>
+                        <Name>Small Electric Motor</Name>
+                        <Description>You can't have a fan without an electric motor.</Description>
 			<Category>Electronic Work</Category>
-      <DevTime>1</DevTime>
-      <Innovation>0.3</Innovation>
-      <Usability>0.3</Usability>
-  		<Stability>0.3</Stability>
-    	<CodeArt>1</CodeArt>
+                        <DevTime>1</DevTime>
+                        <Innovation>0.3</Innovation>
+                        <Usability>0.3</Usability>
+  		        <Stability>0.3</Stability>
+    	                <CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Small Fan">0</SoftwareCategory>
 			<SoftwareCategory Category="Medium Fan">0</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">0</SoftwareCategory>
@@ -102,26 +102,38 @@
 			<SoftwareCategory Category="Big Fan">1991</SoftwareCategory>
 		</Feature>
 		<Feature>
-      <Name>Big Electric Motor</Name>
-      <Description>A fan with a big motor? How powerful is this?!?</Description>
+                        <Name>Big Electric Motor</Name>
+                        <Description>A fan with a big motor? How powerful is this?!?</Description>
 			<Category>Electronic Work</Category>
-      <DevTime>4</DevTime>
-      <Innovation>0.7</Innovation>
-      <Usability>0.5</Usability>
-  		<Stability>1.0</Stability>
-    	<CodeArt>1</CodeArt>
+                        <DevTime>4</DevTime>
+                        <Innovation>0.7</Innovation>
+                        <Usability>0.5</Usability>
+  		        <Stability>1.0</Stability>
+    	                <CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Big Fan">1992</SoftwareCategory>
 			<Dependency Software="Fans">Medium Electric Motor</Dependency>
 		</Feature>
+		<Feature From="Big Electric Motor">
+                        <Name>XL Electric Motor</Name>
+                        <Description>A fan with a XL motor? How much more powerful is this?!?</Description>
+			<Category>Advanced Electronic Work</Category>
+                        <DevTime>4</DevTime>
+                        <Innovation>0.7</Innovation>
+                        <Usability>0.5</Usability>
+  		        <Stability>1.0</Stability>
+    	                <CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Big Fan">1992</SoftwareCategory>
+			<Dependency Software="Fans">Big Electric Motor</Dependency>
+		</Feature>
 		<Feature>
-      <Name>Silent Electric Motor</Name>
-      <Description>A fan that doesn't make noise.</Description>
+                        <Name>Silent Electric Motor</Name>
+                        <Description>A fan that doesn't make noise.</Description>
 			<Category>Electronic Work</Category>
-      <DevTime>5</DevTime>
-      <Innovation>0.8</Innovation>
-      <Usability>1.0</Usability>
-  		<Stability>0.5</Stability>
-    	<CodeArt>1</CodeArt>
+                        <DevTime>5</DevTime>
+                        <Innovation>0.8</Innovation>
+                        <Usability>1.0</Usability>
+  		        <Stability>0.5</Stability>
+    	                <CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Big Fan">1993</SoftwareCategory>
 			<Dependency Software="Fans">Medium Electric Motor</Dependency>
 		</Feature>
@@ -164,7 +176,7 @@
 			<SoftwareCategory Category="Medium Fan">1989</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1989</SoftwareCategory>
 		</Feature>
-    <Feature From="Titanium Blade">
+                        <Feature From="Titanium Blade">
 			<Name>Carbon fiber Blade</Name>
 			<Description>This blade is lighter then the Titanuim so it will spin alot faster.</Description>
 			<Category>Metal Work</Category>
@@ -349,6 +361,5 @@
 			<SoftwareCategory Category="Medium Fan">2007</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">2010</SoftwareCategory>
 		</Feature>
-
 	</Features>
 </SoftwareType>
