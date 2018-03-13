@@ -75,6 +75,19 @@
 			<SoftwareCategory Category="Medium Fan">1995</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1995</SoftwareCategory>
 		</Feature>
+		
+		<Feature From="Titanium Housing">
+			<Name>Carbon Fiber Housing</Name>
+			<Description>This is the best quality you will ever get.</Description>
+			<Category>Advanced Metal Work</Category>
+			<DevTime>3</DevTime>
+			<Innovation>0.9</Innovation>
+			<Usability>1</Usability>
+			<Stability>0.9</Stability>
+			<CodeArt>0.9</CodeArt>
+			<SoftwareCategory Category="Medium Fan">2002</SoftwareCategory>
+			<SoftwareCategory Category="Big Fan">2004</SoftwareCategory>
+		</Feature>
 
 		<Feature Forced="TRUE">
                         <Name>Small Steam Motor</Name>
@@ -112,8 +125,8 @@
 			<Stability>0.4</Stability>
                          <CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Small Fan">1974</SoftwareCategory>
-			<SoftwareCategory Category="Medium Fan">1974</SoftwareCategory>
-			<SoftwareCategory Category="Big Fan">1974</SoftwareCategory>
+			<SoftwareCategory Category="Medium Fan">1975</SoftwareCategory>
+			<SoftwareCategory Category="Big Fan">1977</SoftwareCategory>
 		</Feature>
 		<Feature From="Big Steam Motor" Vital="TRUE">
                         <Name>Small Electric Motor</Name>
@@ -130,7 +143,7 @@
 		</Feature>
 		<Feature From="Small Electric Motor">
                         <Name>Medium Electric Motor</Name>
-                        <Description>A fan with a bigger fan means cold.</Description>
+                        <Description>A fan with a bigger fan means your face will be more cool.</Description>
 			<Category>Electronic Work</Category>
                         <DevTime>2</DevTime>
                         <Innovation>1.0</Innovation>
@@ -154,12 +167,12 @@
 		</Feature>
 		<Feature From="Big Electric Motor">
 	                <Name>XL Electric Motor</Name>
-	    <Description>A fan with a XL motor? How much more powerful is this?!?</Description>
+	                <Description>A fan with a XL motor? How much more powerful is this?!?</Description>
 			<Category>Advanced Electronic Work</Category>
-      <DevTime>4</DevTime>
-      <Innovation>1.3</Innovation>
+                        <DevTime>4</DevTime>
+                        <Innovation>1.3</Innovation>
 			<Usability>1.1</Usability>
-      <Stability>1.6</Stability>
+                        <Stability>1.6</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Big Fan">1992</SoftwareCategory>
 			<Dependency Software="Fans">Big Electric Motor</Dependency>
@@ -362,7 +375,7 @@
 		</Feature>
 		<Feature Vital="TRUE" Research="Fan AI">
 			<Name>Advanced Fan AI</Name>
-			<Description>Your fan will turn on if you are in the room, and off if you exit. But now it has less false errors</Description>
+			<Description>Your fan will turn on if you are in the room, and off if you exit. But now it has less false errors.</Description>
 			<Category>Artificial Intelligence</Category>
 			<DevTime>9</DevTime>
 			<Innovation>2.0</Innovation>
@@ -395,10 +408,10 @@
 			<Usability>2.2</Usability>
 			<Stability>2.0</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.0045</Server>
-			<SoftwareCategory Category="Small Fan">2004</SoftwareCategory>
+			<Server>0.0058</Server>
+			<SoftwareCategory Category="Small Fan">2005</SoftwareCategory>
 			<SoftwareCategory Category="Medium Fan">2007</SoftwareCategory>
-			<SoftwareCategory Category="Big Fan">2010</SoftwareCategory>
+			<SoftwareCategory Category="Big Fan">2009</SoftwareCategory>
 		</Feature>
 	</Features>
 </SoftwareType>
