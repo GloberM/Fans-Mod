@@ -7,10 +7,10 @@
 	<Categories>
 		<Category Name="Small Fan">
 			<Description>This is the smallest fan you can get.</Description>
-			<Popularity>0.6</Popularity>
-			<Retention>0.5</Retention>
-			<TimeScale>0.5</TimeScale>
-			<Iterative>0.5</Iterative>
+			<Popularity>0.5</Popularity>
+			<Retention>0.7</Retention>
+			<TimeScale>0.9</TimeScale>
+			<Iterative>0.4</Iterative>
 			<NameGenerator>fanNames</NameGenerator>
 		</Category>
 		<Category Name="Medium Fan">
