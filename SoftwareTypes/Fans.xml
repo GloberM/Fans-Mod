@@ -178,16 +178,16 @@
 			<Dependency Software="Fans">Big Electric Motor</Dependency>
 		</Feature>
 		<Feature>
-      <Name>Silent Electric Motor</Name>
-      <Description>A fan that doesn't make noise.</Description>
-			<Category>Electronic Work</Category>
-      <DevTime>5</DevTime>
-      <Innovation>1.2</Innovation>
-      <Usability>1.4</Usability>
-      <Stability>0.9</Stability>
-      <CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Big Fan">1993</SoftwareCategory>
-			<Dependency Software="Fans">Medium Electric Motor</Dependency>
+                         <Name>Silent Electric Motor</Name>
+                         <Description>A fan that doesn't make noise.</Description>
+			 <Category>Electronic Work</Category>
+                         <DevTime>5</DevTime>
+                         <Innovation>1.2</Innovation>
+                         <Usability>1.4</Usability>
+                         <Stability>0.9</Stability>
+                         <CodeArt>1</CodeArt>
+			 <SoftwareCategory Category="Big Fan">1993</SoftwareCategory>
+			 <Dependency Software="Fans">Medium Electric Motor</Dependency>
 		</Feature>
 
 		<Feature Forced="TRUE">
@@ -362,10 +362,42 @@
 		
 		<Feature>
 			<Name>Basic Radio</Name>
-			<Description>you can listen to AM radio while at work</Description>
+			<Description>You can listen to AM radio while at work</Description>
 			<Category>Radio & Electronic work</Category>
-			<Dependency Software="Fans">Basic Speakers</Dependency>
-			<Dependency Software="Fans">Basic Radio Receiver</Dependency>
+			<DevTime>1.5</DevTime>
+			<Usability>1.7</Usability>
+			<Innovation>1.9</Innovation>
+			<Stability>1.9</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Small Fan">2000</SoftwareCategory>
+			<SoftwareCategory Category="Medium Fan">2003</SoftwareCategory>
+			<SoftwareCategory Category="Big Fan">2004</SoftwareCategory>
+		</Feature>
+		
+		<Feature>
+			<Name>Radio</Name>
+			<Description>You can listen to FM & AM radio while at work</Description>
+			<Category>Radio & Electronic work</Category>
+			<DevTime>2.3</DevTime>
+			<Usability>1.1</Usability>
+			<Innovation>2.6</Innovation>
+			<Stability>2.3</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Medium Fan">2008</SoftwareCategory>
+			<SoftwareCategory Category="Big Fan">2012</SoftwareCategory>
+		</Feature>
+		
+		<Feature>
+			<Name>Advanced Radio</Name>
+			<Description>You can listen to AM radio while at work</Description>
+			<Category>Radio & Electronic work</Category>
+			<DevTime>3.5</DevTime>
+			<Usability>3.7</Usability>
+			<Innovation>2.9</Innovation>
+			<Stability>4.9</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Medium Fan">2017</SoftwareCategory>
+			<SoftwareCategory Category="Big Fan">2018</SoftwareCategory>
 		</Feature>
 
 		<Feature Vital="TRUE">
