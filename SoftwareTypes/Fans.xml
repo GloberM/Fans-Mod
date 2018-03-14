@@ -374,7 +374,7 @@
 			<SoftwareCategory Category="Big Fan">2004</SoftwareCategory>
 		</Feature>
 		
-		<Feature>
+		<Feature From="Basic Radio">
 			<Name>Radio</Name>
 			<Description>You can listen to FM & AM radio while at work</Description>
 			<Category>Radio & Electronic work</Category>
@@ -387,7 +387,7 @@
 			<SoftwareCategory Category="Big Fan">2012</SoftwareCategory>
 		</Feature>
 		
-		<Feature>
+		<Feature From="Radio">
 			<Name>Advanced Radio</Name>
 			<Description>You can listen to AM radio while at work</Description>
 			<Category>Radio & Electronic work</Category>
