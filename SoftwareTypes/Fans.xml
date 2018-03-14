@@ -359,6 +359,14 @@
 			<SoftwareCategory Category="Medium Fan">1999</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1999</SoftwareCategory>
 		</Feature>
+		
+		<Feature>
+			<Name>Basic Radio</Name>
+			<Description>you can listen to AM radio while at work</Description>
+			<Category>Radio & Electronic work</Category>
+			<Dependency Software="Fans">Basic Speakers</Dependency>
+			<Dependency Software="Fans">Basic Radio Receiver</Dependency>
+		</Feature>
 
 		<Feature Vital="TRUE">
 			<Name>Fan AI</Name>
