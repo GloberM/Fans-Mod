@@ -65,7 +65,7 @@
 		</Feature>
 		<Feature From="Metal Housing">
 			<Name>Titanium Housing</Name>
-			<Description>This one is better build quality then the titanium one</Description>
+			<Description>This one is better build quality then the Metal one</Description>
 			<Category>Metal Work</Category>
 			<DevTime>1</DevTime>
 			<Innovation>0.8</Innovation>
