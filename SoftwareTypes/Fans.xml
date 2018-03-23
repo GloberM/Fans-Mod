@@ -389,7 +389,7 @@
 		
 		<Feature From="Radio">
 			<Name>Advanced Radio</Name>
-			<Description>You can listen to AM radio while at work</Description>
+			<Description>You can listen to FM, AM & DAB radio while at work</Description>
 			<Category>Radio & Electronic work</Category>
 			<DevTime>3.5</DevTime>
 			<Usability>3.7</Usability>
