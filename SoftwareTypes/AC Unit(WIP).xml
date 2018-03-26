@@ -50,9 +50,10 @@
 			<SoftwareCategory Category="Medium AC Unit">0</SoftwareCategory>
 			<SoftwareCategory Category="Big AC Unit">0</SoftwareCategory>
 		</Feature>
-      <Feature Vital="TRUE">
+
+    <Feature Vital="TRUE">
 			<Name>Basic Air Filtering</Name>
-			<Description>Your AC Unit will filter better your air.</Description>
+			<Description>Your AC Unit will filter your air.</Description>
 			<Category>Filtering</Category>
 			<DevTime>2</DevTime>
 			<Innovation>0.7</Innovation>
@@ -77,7 +78,7 @@
 		</Feature>
 		<Feature Vital="TRUE" Research="Air Filtering">
 			<Name>Advanced Air Filtering</Name>
-			<Description>Your AC Unit will filter and clean your air.</Description>
+			<Description>Your AC Unit will filter and purify your air.</Description>
 			<Category>Filtering</Category>
 			<DevTime>3</DevTime>
 			<Innovation>0.9</Innovation>
@@ -87,9 +88,10 @@
 			<Unlock>1999</Unlock>
 			<SoftwareCategory Category="Big AC Unit">1999</SoftwareCategory>
 		</Feature>
+
 		<Feature Vital="TRUE">
 			<Name>Small AC Standard Motor</Name>
-			<Description>This will spin the fan at low speeds good for small companies with not alot of money.</Description>
+			<Description>This motor will spin at a low speed, good for small companies that don't have a lot of money.</Description>
 			<Category>Electronic Work</Category>
 			<DevTime>2</DevTime>
 			<Innovation>0.6</Innovation>
@@ -101,9 +103,9 @@
 			<SoftwareCategory Category="Medium AC Unit">1992</SoftwareCategory>
 			<SoftwareCategory Category="Big AC Unit">1995</SoftwareCategory>
 		</Feature>
-		<Feature Vital="TRUE">
+		<Feature Vital="TRUE" From="Small AC Standard Motor">
 			<Name>Medium AC Standard Motor</Name>
-			<Description>This will spin the fan at normal speeds good for companies with alot of money.</Description>
+			<Description>This motor will spin at a normal speed, good for companies with some money.</Description>
 			<Category>Electronic Work</Category>
 			<DevTime>2</DevTime>
 			<Innovation>0.6</Innovation>
@@ -114,6 +116,20 @@
 			<SoftwareCategory Category="Small AC Unit">1988</SoftwareCategory>
 			<SoftwareCategory Category="Medium AC Unit">1992</SoftwareCategory>
 			<SoftwareCategory Category="Big AC Unit">1995</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE" From="Medium AC Standard Motor">
+			<Name>Big AC Standard Motor</Name>
+			<Description>This motor will spin at a fast speed, good for companies with alot of money.</Description>
+			<Category>Electronic Work</Category>
+			<DevTime>2</DevTime>
+			<Innovation>0.8</Innovation>
+			<Usability>1.0</Usability>
+			<Stability>1.0</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1988</Unlock>
+			<SoftwareCategory Category="Small AC Unit">1991</SoftwareCategory>
+			<SoftwareCategory Category="Medium AC Unit">1995</SoftwareCategory>
+			<SoftwareCategory Category="Big AC Unit">1998</SoftwareCategory>
 		</Feature>
 	</Features>
 </SoftwareType>
