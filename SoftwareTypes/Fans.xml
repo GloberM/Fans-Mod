@@ -238,8 +238,8 @@
 			<CodeArt>0.3</CodeArt>
 			<SoftwareCategory Category="Medium Fan">1998</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">1999</SoftwareCategory>
-		</Feature>
-
+    </Feature>
+    
 		<Feature Forced="TRUE">
 			<Name>Basic Speed Controller</Name>
 			<Description>This controller will let you control your fan with 3 different velocities.</Description>
@@ -329,6 +329,7 @@
 			<Server>9</Server>
 			<SoftwareCategory Category="Big Fan">2017</SoftwareCategory>
 		</Feature>
+  
 		<Feature Vital="TRUE">
 			<Name>80 PLUS Efficiency</Name>
 			<Description>Your fan is power efficient.</Description>
@@ -445,7 +446,7 @@
 			<SoftwareCategory Category="Medium Fan">2017</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">2018</SoftwareCategory>
 		</Feature>
-
+  
 		<Feature Vital="TRUE">
 			<Name>Fan AI</Name>
 			<Description>Your fan will turn on if you are in the room, and off if you exit.</Description>
@@ -499,5 +500,6 @@
 			<SoftwareCategory Category="Medium Fan">2007</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">2009</SoftwareCategory>
 		</Feature>
+  
 	</Features>
 </SoftwareType>
