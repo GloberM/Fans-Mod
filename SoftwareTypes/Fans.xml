@@ -25,7 +25,7 @@
 		<Category Name="Big Fan">
 			<Description>This is a big fan.</Description>
 			<Unlock>1990</Unlock>
-			<Popularity>0.7</Popularity>
+			<Popularity>0.9</Popularity>
 			<Retention>0.8</Retention>
 			<TimeScale>0.9</TimeScale>
 			<Iterative>0.8</Iterative>
@@ -320,7 +320,7 @@
 		</Feature>
 		<Feature From="Advanced LCD Display">
 			<Name>Super Advanced LCD Display</Name>
-			<Description>You can go on anything you want including the internet</Description>
+			<Description>You can go on anything you want including the internet with higher bandwith</Description>
 			<Category>Plastic Work</Category>
 			<DevTime>10</DevTime>
 			<Innovation>2.4</Innovation>
@@ -328,7 +328,7 @@
 			<Stability>2.9</Stability>
 			<CodeArt>0.15</CodeArt>
 			<Server>9</Server>
-			<SoftwareCategory Category="Big Fan">2014</SoftwareCategory>
+			<SoftwareCategory Category="Big Fan">2017</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>80 PLUS Efficiency</Name>
