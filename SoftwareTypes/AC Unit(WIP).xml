@@ -87,5 +87,33 @@
 			<Unlock>1999</Unlock>
 			<SoftwareCategory Category="Big AC Unit">1999</SoftwareCategory>
 		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Small AC Standard Motor</Name>
+			<Description>This will spin the fan at low speeds good for small companies with not alot of money.</Description>
+			<Category>Electronic Work</Category>
+			<DevTime>2</DevTime>
+			<Innovation>0.6</Innovation>
+			<Usability>0.8</Usability>
+			<Stability>0.6</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1988</Unlock>
+			<SoftwareCategory Category="Small AC Unit">1988</SoftwareCategory>
+			<SoftwareCategory Category="Medium AC Unit">1992</SoftwareCategory>
+			<SoftwareCategory Category="Big AC Unit">1995</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Medium AC Standard Motor</Name>
+			<Description>This will spin the fan at normal speeds good for companies with alot of money.</Description>
+			<Category>Electronic Work</Category>
+			<DevTime>2</DevTime>
+			<Innovation>0.6</Innovation>
+			<Usability>0.8</Usability>
+			<Stability>0.6</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>1988</Unlock>
+			<SoftwareCategory Category="Small AC Unit">1988</SoftwareCategory>
+			<SoftwareCategory Category="Medium AC Unit">1992</SoftwareCategory>
+			<SoftwareCategory Category="Big AC Unit">1995</SoftwareCategory>
+		</Feature>
 	</Features>
 </SoftwareType>
