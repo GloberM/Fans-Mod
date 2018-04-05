@@ -514,7 +514,7 @@
 			<SoftwareCategory Category="Medium Fan">2002</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">2005</SoftwareCategory>
 		</Feature>
-		<Feature Forced="TRUE" From="Basic WaterProofing">
+		<Feature From="Basic WaterProofing">
 			<Name>WaterProofing</Name>
 			<Description>Just in case you spill you tea or coffee on your fan(Only waterproofes the controller/the LCD display and some of the electronics).</Description>
 			<Category>WaterProofing</Category>
@@ -527,7 +527,7 @@
 			<SoftwareCategory Category="Medium Fan">2006</SoftwareCategory>
 			<SoftwareCategory Category="Big Fan">2008</SoftwareCategory>
 		</Feature>
-		<Feature Forced="TRUE" From="WaterProofing">
+		<Feature From="WaterProofing">
 			<Name>Advanced WaterProofing</Name>
 			<Description>Just in case you spill you tea or coffee on your fan it will keep it workingeven if you put it in a river it will still work but the slight disadvantage is it will get hot quicker so keep it in a place where no sunlight is.</Description>
 			<Category>WaterProofing</Category>
